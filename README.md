@@ -12,7 +12,8 @@ Dataset: https://zenodo.org/records/11031987 (MammoTab 24)
 # Evaluate CEA task with WikiData Entities
 - **CEA_WD_Evaluator**: py CEA_WD_Evaluator.py
 
-# Changes done (from Round 1 - https://github.com/dylanlty/system-for-tabular-data-to-kg-matching/)
+# Changes Done 
+(from Round 1 - https://github.com/dylanlty/system-for-tabular-data-to-kg-matching/)
 - Refined prompts
 - Set response safety of prompts to None
 - Process the cleaning of data by the LLM in batches of 15 instead all in one 
