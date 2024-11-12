@@ -17,7 +17,8 @@ Dataset: https://zenodo.org/records/11031987 (MammoTab 24)
 - Refined prompts
 - Set response safety of prompts to None
 - Process the cleaning of data by the LLM in batches of 15 instead all in one 
-- Provide few rows for context during the matching process by the LLM rather than the whole table  
+- Provide few rows for context during the matching process by the LLM rather than the whole table
+- Used Gemini-1.5-flash instead of GPT-4o-mini
 
 
 
