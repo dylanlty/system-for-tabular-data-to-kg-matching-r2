@@ -14,11 +14,11 @@ Dataset: https://zenodo.org/records/11031987 (MammoTab 24)
 
 # Changes Made 
 (compared to the System for Round 1 - https://github.com/dylanlty/system-for-tabular-data-to-kg-matching/)
-- Refined prompts
-- Set response safety of prompts to None
-- Process the cleaning of data by the LLM in batches of 15 instead all in one 
-- Provide few rows for context during the matching process by the LLM rather than the whole table
-- Used Gemini-1.5-flash instead of GPT-4o-mini
+- Refined prompts.
+- Set response safety of prompts to "None".
+- Processed the cleaning of data by the LLM in batches of 15 instead as a whole.
+- Provided few rows for context during the matching process by the LLM, rather than using the entire table.
+- Used Gemini-1.5-Flash instead of GPT-4o-Mini.
 
 
 
